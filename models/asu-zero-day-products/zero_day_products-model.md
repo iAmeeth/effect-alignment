@@ -54,6 +54,14 @@ return DM.iso8601date(getValue("timestamp"), "%Y-%m-%d %H:%M:%S.%f")
 
 ```
 
+#### _price_uri_
+From column: _json_rep / sellingPriceUsd_
+``` python
+x = getValue("sellingPriceUsd")
+if len(x) > 0:
+    return getValue("_id") + "/" + x
+```
+
 
 ## Selections
 
@@ -77,6 +85,6 @@ return DM.iso8601date(getValue("timestamp"), "%Y-%m-%d %H:%M:%S.%f")
 | From | Property | To |
 |  --- | -------- | ---|
 | `memex:Exploit1` | `schema:category` | `zero-day-exploit`|
-| `memex:Exploit1` | `schema:priceSpecification` | `schema:PriceSpecification1`|
 | `memex:Exploit1` | `schema:seller` | `memex:PersonOrOrganization1`|
+| `memex:Exploit1` | `schema:priceSpecification` | `schema:PriceSpecification1`|
 | `schema:PriceSpecification1` | `schema:priceCurrency` | `USD`|
