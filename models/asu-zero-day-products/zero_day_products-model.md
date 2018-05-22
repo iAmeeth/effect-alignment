@@ -76,6 +76,7 @@ if len(x) > 0:
 | _item_id_ | `uri` | `memex:Exploit1`|
 | _marketplace_id_ | `uri` | `memex:PersonOrOrganization1`|
 | _posted_date_iso_ | `schema:datePosted` | `memex:Exploit1`|
+| _price_uri_ | `uri` | `schema:PriceSpecification1`|
 | _sellingPriceUsd_ | `schema:price` | `schema:PriceSpecification1`|
 | _source_name_id_ | `schema:publisher`<BR> - _specified provenance_ | `schema:PriceSpecification1`|
 | _timestamp_iso_ | `memex:dateRecorded`<BR> - _specified provenance_ | `schema:PriceSpecification1`|
