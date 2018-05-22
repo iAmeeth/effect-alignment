@@ -4,105 +4,114 @@
     "description": null,
     "sourceColumns": [
         {
-            "id": "HN4513",
-            "hNodeId": "HN4513",
+            "id": "HN7105",
+            "hNodeId": "HN7105",
             "columnName": "item_id"
         },
         {
-            "id": "HN2609",
-            "hNodeId": "HN2609",
+            "id": "HN5201",
+            "hNodeId": "HN5201",
             "columnName": "clusterName"
         },
         {
-            "id": "HN2613",
-            "hNodeId": "HN2613",
+            "id": "HN5205",
+            "hNodeId": "HN5205",
             "columnName": "itemCategory"
         },
         {
-            "id": "HN4603",
-            "hNodeId": "HN4603",
+            "id": "HN7195",
+            "hNodeId": "HN7195",
             "columnName": "posted_date_iso"
         },
         {
-            "id": "HN2611",
-            "hNodeId": "HN2611",
+            "id": "HN5203",
+            "hNodeId": "HN5203",
             "columnName": "description"
         },
         {
-            "id": "HN2617",
-            "hNodeId": "HN2617",
+            "id": "HN5209",
+            "hNodeId": "HN5209",
             "columnName": "itemName"
         },
         {
-            "id": "HN4693",
-            "hNodeId": "HN4693",
-            "columnName": "cdr_id"
+            "id": "HN7375",
+            "hNodeId": "HN7375",
+            "columnName": "source_name_id"
         },
         {
-            "id": "HN4873",
-            "hNodeId": "HN4873",
+            "id": "HN7465",
+            "hNodeId": "HN7465",
             "columnName": "marketplace_id"
         },
         {
-            "id": "HN4964",
-            "hNodeId": "HN4964",
+            "id": "HN7649",
+            "hNodeId": "HN7649",
+            "columnName": "price_uri"
+        },
+        {
+            "id": "HN7556",
+            "hNodeId": "HN7556",
             "columnName": "timestamp_iso"
         },
         {
-            "id": "HN2627",
-            "hNodeId": "HN2627",
+            "id": "HN5219",
+            "hNodeId": "HN5219",
             "columnName": "sellingPriceUsd"
         },
         {
-            "id": "HN4783",
-            "hNodeId": "HN4783",
-            "columnName": "source_name_id"
+            "id": "HN7285",
+            "hNodeId": "HN7285",
+            "columnName": "cdr_id"
         }
     ],
     "mappingToSourceColumns": [
         {
-            "id": "HN2627",
-            "sourceColumnId": "HN2627"
+            "id": "HN7375",
+            "sourceColumnId": "HN7375"
         },
         {
-            "id": "HN4693",
-            "sourceColumnId": "HN4693"
+            "id": "HN7465",
+            "sourceColumnId": "HN7465"
         },
         {
-            "id": "HN2613",
-            "sourceColumnId": "HN2613"
+            "id": "HN7105",
+            "sourceColumnId": "HN7105"
         },
         {
-            "id": "HN4783",
-            "sourceColumnId": "HN4783"
+            "id": "HN5201",
+            "sourceColumnId": "HN5201"
         },
         {
-            "id": "HN2611",
-            "sourceColumnId": "HN2611"
+            "id": "HN7556",
+            "sourceColumnId": "HN7556"
         },
         {
-            "id": "HN4873",
-            "sourceColumnId": "HN4873"
+            "id": "HN5203",
+            "sourceColumnId": "HN5203"
         },
         {
-            "id": "HN4513",
-            "sourceColumnId": "HN4513"
+            "id": "HN5205",
+            "sourceColumnId": "HN5205"
         },
         {
-            "id": "HN4964",
-            "sourceColumnId": "HN4964"
+            "id": "HN7649",
+            "sourceColumnId": "HN7649"
         },
         {
-            "id": "HN4603",
-            "sourceColumnId": "HN4603"
+            "id": "HN5219",
+            "sourceColumnId": "HN5219"
         },
         {
-            "id": "HN2609",
-            "sourceColumnId": "HN2609"
+            "id": "HN5209",
+            "sourceColumnId": "HN5209"
         },
         {
-            "id": "HN2617",
-            "sourceColumnId": "HN2617"
+            "id": "HN7195",
+            "sourceColumnId": "HN7195"
+        },
+        {
+            "id": "HN7285",
+            "sourceColumnId": "HN7285"
         }
     ],
     "graph": {
@@ -117,19 +126,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN4513",
+                "id": "HN7105",
                 "label": {
-                    "uri": "HN4513",
+                    "uri": "HN7105",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN4513",
+                "hNodeId": "HN7105",
                 "columnName": "item_id",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN4513",
+                        "hNodeId": "HN7105",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -142,7 +151,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4513",
+                        "hNodeId": "HN7105",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -159,19 +168,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN2609",
+                "id": "HN5201",
                 "label": {
-                    "uri": "HN2609",
+                    "uri": "HN5201",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN2609",
+                "hNodeId": "HN5201",
                 "columnName": "clusterName",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN2609",
+                        "hNodeId": "HN5201",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -184,7 +193,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN2609",
+                        "hNodeId": "HN5201",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -201,19 +210,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN2613",
+                "id": "HN5205",
                 "label": {
-                    "uri": "HN2613",
+                    "uri": "HN5205",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN2613",
+                "hNodeId": "HN5205",
                 "columnName": "itemCategory",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN2613",
+                        "hNodeId": "HN5205",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -226,7 +235,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN2613",
+                        "hNodeId": "HN5205",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -259,19 +268,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN4603",
+                "id": "HN7195",
                 "label": {
-                    "uri": "HN4603",
+                    "uri": "HN7195",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN4603",
+                "hNodeId": "HN7195",
                 "columnName": "posted_date_iso",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN4603",
+                        "hNodeId": "HN7195",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -284,7 +293,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4603",
+                        "hNodeId": "HN7195",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -301,19 +310,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN2611",
+                "id": "HN5203",
                 "label": {
-                    "uri": "HN2611",
+                    "uri": "HN5203",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN2611",
+                "hNodeId": "HN5203",
                 "columnName": "description",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN2611",
+                        "hNodeId": "HN5203",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -326,7 +335,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN2611",
+                        "hNodeId": "HN5203",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -343,19 +352,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN2617",
+                "id": "HN5209",
                 "label": {
-                    "uri": "HN2617",
+                    "uri": "HN5209",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN2617",
+                "hNodeId": "HN5209",
                 "columnName": "itemName",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN2617",
+                        "hNodeId": "HN5209",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -368,7 +377,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN2617",
+                        "hNodeId": "HN5209",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -385,78 +394,78 @@
                 "modelIds": null
             },
             {
-                "id": "HN4693",
+                "id": "HN7375",
                 "label": {
-                    "uri": "HN4693",
+                    "uri": "HN7375",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN4693",
-                "columnName": "cdr_id",
+                "hNodeId": "HN7375",
+                "columnName": "source_name_id",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN4693",
+                        "hNodeId": "HN7375",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
                         },
                         "type": {
-                            "uri": "http://schema.org/source",
-                            "rdfsLabel": "source"
+                            "uri": "http://schema.org/publisher",
+                            "rdfsLabel": "publisher"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4693",
+                        "hNodeId": "HN7375",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/PersonOrOrganization",
                             "rdfsLabel": null
                         },
                         "type": {
-                            "uri": "http://schema.org/source",
-                            "rdfsLabel": "source"
+                            "uri": "http://schema.org/publisher",
+                            "rdfsLabel": "publisher"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4693",
+                        "hNodeId": "HN7375",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
                         },
                         "type": {
-                            "uri": "http://schema.org/source",
-                            "rdfsLabel": "source"
+                            "uri": "http://schema.org/publisher",
+                            "rdfsLabel": "publisher"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4693",
+                        "hNodeId": "HN7375",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
                         },
                         "type": {
-                            "uri": "http://schema.org/source",
-                            "rdfsLabel": "source"
+                            "uri": "http://schema.org/publisher",
+                            "rdfsLabel": "publisher"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4693",
+                        "hNodeId": "HN7375",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
                         },
                         "type": {
-                            "uri": "http://schema.org/source",
-                            "rdfsLabel": "source"
+                            "uri": "http://schema.org/publisher",
+                            "rdfsLabel": "publisher"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
@@ -475,19 +484,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN4873",
+                "id": "HN7465",
                 "label": {
-                    "uri": "HN4873",
+                    "uri": "HN7465",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN4873",
+                "hNodeId": "HN7465",
                 "columnName": "marketplace_id",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN4873",
+                        "hNodeId": "HN7465",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/PersonOrOrganization",
                             "rdfsLabel": null
@@ -500,7 +509,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4873",
+                        "hNodeId": "HN7465",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/PersonOrOrganization",
                             "rdfsLabel": null
@@ -526,19 +535,61 @@
                 "modelIds": null
             },
             {
-                "id": "HN4964",
+                "id": "HN7649",
                 "label": {
-                    "uri": "HN4964",
+                    "uri": "HN7649",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN4964",
+                "hNodeId": "HN7649",
+                "columnName": "price_uri",
+                "rdfLiteralType": null,
+                "language": "",
+                "userSemanticTypes": [
+                    {
+                        "hNodeId": "HN7649",
+                        "domain": {
+                            "uri": "http://schema.org/PriceSpecification",
+                            "rdfsLabel": "PriceSpecification"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink",
+                            "rdfsLabel": null
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "hNodeId": "HN7649",
+                        "domain": {
+                            "uri": "http://schema.org/PriceSpecification",
+                            "rdfsLabel": "PriceSpecification"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink",
+                            "rdfsLabel": null
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "learnedSemanticTypes": null,
+                "modelIds": null
+            },
+            {
+                "id": "HN7556",
+                "label": {
+                    "uri": "HN7556",
+                    "rdfsLabel": null
+                },
+                "type": "ColumnNode",
+                "hNodeId": "HN7556",
                 "columnName": "timestamp_iso",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN4964",
+                        "hNodeId": "HN7556",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
@@ -551,7 +602,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4964",
+                        "hNodeId": "HN7556",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/PersonOrOrganization",
                             "rdfsLabel": null
@@ -564,7 +615,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4964",
+                        "hNodeId": "HN7556",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -577,7 +628,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4964",
+                        "hNodeId": "HN7556",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
@@ -590,7 +641,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4964",
+                        "hNodeId": "HN7556",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
@@ -607,19 +658,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN2627",
+                "id": "HN5219",
                 "label": {
-                    "uri": "HN2627",
+                    "uri": "HN5219",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN2627",
+                "hNodeId": "HN5219",
                 "columnName": "sellingPriceUsd",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN2627",
+                        "hNodeId": "HN5219",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
@@ -632,7 +683,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN2627",
+                        "hNodeId": "HN5219",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
@@ -665,78 +716,78 @@
                 "modelIds": null
             },
             {
-                "id": "HN4783",
+                "id": "HN7285",
                 "label": {
-                    "uri": "HN4783",
+                    "uri": "HN7285",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN4783",
-                "columnName": "source_name_id",
+                "hNodeId": "HN7285",
+                "columnName": "cdr_id",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN4783",
+                        "hNodeId": "HN7285",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
                         },
                         "type": {
-                            "uri": "http://schema.org/publisher",
-                            "rdfsLabel": "publisher"
+                            "uri": "http://schema.org/source",
+                            "rdfsLabel": "source"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4783",
+                        "hNodeId": "HN7285",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/PersonOrOrganization",
                             "rdfsLabel": null
                         },
                         "type": {
-                            "uri": "http://schema.org/publisher",
-                            "rdfsLabel": "publisher"
+                            "uri": "http://schema.org/source",
+                            "rdfsLabel": "source"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4783",
+                        "hNodeId": "HN7285",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
                         },
                         "type": {
-                            "uri": "http://schema.org/publisher",
-                            "rdfsLabel": "publisher"
+                            "uri": "http://schema.org/source",
+                            "rdfsLabel": "source"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4783",
+                        "hNodeId": "HN7285",
                         "domain": {
                             "uri": "http://schema.org/PriceSpecification",
                             "rdfsLabel": "PriceSpecification"
                         },
                         "type": {
-                            "uri": "http://schema.org/publisher",
-                            "rdfsLabel": "publisher"
+                            "uri": "http://schema.org/source",
+                            "rdfsLabel": "source"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN4783",
+                        "hNodeId": "HN7285",
                         "domain": {
                             "uri": "http://schema.dig.isi.edu/ontology/Exploit",
                             "rdfsLabel": "Exploit"
                         },
                         "type": {
-                            "uri": "http://schema.org/publisher",
-                            "rdfsLabel": "publisher"
+                            "uri": "http://schema.org/source",
+                            "rdfsLabel": "source"
                         },
                         "origin": "User",
                         "confidenceScore": 1.0
@@ -748,7 +799,7 @@
         ],
         "links": [
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://isi.edu/integration/karma/dev#classLink---HN4513",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://isi.edu/integration/karma/dev#classLink---HN7105",
                 "weight": 0.01,
                 "type": "ClassInstanceLink",
                 "label": {
@@ -760,7 +811,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.dig.isi.edu/ontology/hasType---HN2609",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.dig.isi.edu/ontology/hasType---HN5201",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -772,7 +823,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/category---HN2613",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/category---HN5205",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -797,7 +848,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/datePosted---HN4603",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/datePosted---HN7195",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -809,7 +860,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/description---HN2611",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/description---HN5203",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -821,7 +872,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/name---HN2617",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/name---HN5209",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -833,19 +884,19 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/source---HN4693",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/publisher---HN7375",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
-                    "uri": "http://schema.org/source",
-                    "rdfsLabel": "source"
+                    "uri": "http://schema.org/publisher",
+                    "rdfsLabel": "publisher"
                 },
                 "status": "ForcedByUser",
                 "keyInfo": "None",
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/PersonOrOrganization1---http://isi.edu/integration/karma/dev#classLink---HN4873",
+                "id": "http://schema.dig.isi.edu/ontology/PersonOrOrganization1---http://isi.edu/integration/karma/dev#classLink---HN7465",
                 "weight": 0.01,
                 "type": "ClassInstanceLink",
                 "label": {
@@ -857,7 +908,19 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.org/PriceSpecification1---http://schema.dig.isi.edu/ontology/dateRecorded---HN4964",
+                "id": "http://schema.org/PriceSpecification1---http://isi.edu/integration/karma/dev#classLink---HN7649",
+                "weight": 0.01,
+                "type": "ClassInstanceLink",
+                "label": {
+                    "uri": "http://isi.edu/integration/karma/dev#classLink",
+                    "rdfsLabel": null
+                },
+                "status": "ForcedByUser",
+                "keyInfo": "UriOfInstance",
+                "modelIds": null
+            },
+            {
+                "id": "http://schema.org/PriceSpecification1---http://schema.dig.isi.edu/ontology/dateRecorded---HN7556",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -869,7 +932,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.org/PriceSpecification1---http://schema.org/price---HN2627",
+                "id": "http://schema.org/PriceSpecification1---http://schema.org/price---HN5219",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -894,7 +957,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.org/PriceSpecification1---http://schema.org/publisher---HN4783",
+                "id": "http://schema.org/PriceSpecification1---http://schema.org/publisher---HN7375",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -906,7 +969,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.org/PriceSpecification1---http://schema.org/source---HN4693",
+                "id": "http://schema.org/PriceSpecification1---http://schema.org/source---HN7285",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -931,7 +994,19 @@
                 "modelIds": null
             },
             {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.dig.isi.edu/ontology/dateRecorded---HN4964",
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/source---HN7285",
+                "weight": 0.01,
+                "type": "DataPropertyLink",
+                "label": {
+                    "uri": "http://schema.org/source",
+                    "rdfsLabel": "source"
+                },
+                "status": "ForcedByUser",
+                "keyInfo": "None",
+                "modelIds": null
+            },
+            {
+                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.dig.isi.edu/ontology/dateRecorded---HN7556",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -951,18 +1026,6 @@
                     "rdfsLabel": "priceSpecification"
                 },
                 "objectPropertyType": "None",
-                "status": "ForcedByUser",
-                "keyInfo": "None",
-                "modelIds": null
-            },
-            {
-                "id": "http://schema.dig.isi.edu/ontology/Exploit1---http://schema.org/publisher---HN4783",
-                "weight": 0.01,
-                "type": "DataPropertyLink",
-                "label": {
-                    "uri": "http://schema.org/publisher",
-                    "rdfsLabel": "publisher"
-                },
                 "status": "ForcedByUser",
                 "keyInfo": "None",
                 "modelIds": null
